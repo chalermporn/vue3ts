@@ -26,7 +26,7 @@ module.exports = {
     'vue/attributes-order': 'error',
     'vue/html-quotes': [
       'error',
-      'single'
+      'double'
     ],
     'vue/order-in-components': 'error'
   },
