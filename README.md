@@ -29,3 +29,12 @@ yarn run test:unit
 ```
 yarn run test:e2e
 ```
+### Add Storybook
+```
+yarn add storybook
+```
+### Run Storybook
+#### port 6006
+```
+yarn storybook
+```

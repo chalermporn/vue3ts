@@ -7,7 +7,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e"
+    "test:e2e": "vue-cli-service test:e2e",
+    "storybook": "vue-cli-service storybook -p 6006 -c config/storybook",
+    "build:storybook": "vue-cli-service build:storybook -c config/storybook"
   },
   "dependencies": {
     "vue": "^2.5.16",
@@ -17,6 +19,8 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.0-alpha.14",
+    "@storybook/addon-links": "^4.0.0-alpha.14",
     "@types/jest": "^23.1.4",
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",
     "@vue/cli-plugin-e2e-cypress": "^3.0.0-rc.10",
@@ -33,6 +37,7 @@
     "sass-loader": "^7.0.1",
     "ts-jest": "^23.0.0",
     "typescript": "^3.0.0",
+    "vue-cli-plugin-storybook": "^0.3.0",
     "vue-template-compiler": "^2.5.16"
   },
   "gitHooks": {
